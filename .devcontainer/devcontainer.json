@@ -1,0 +1,11 @@
+{
+	"name": "arm-none-eabi-gcc",
+	"image": "eerdemsimsek/arm-none-eabi-gcc-14.2:1.3",
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+	"settings": {
+	  "terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": []
+  }
+  
